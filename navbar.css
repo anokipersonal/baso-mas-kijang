@@ -1,0 +1,56 @@
+.navbar {
+
+  width: 100%;
+  height: 13%;
+
+  top: 0px;
+  position: fixed;
+
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-rows: repeat(1, minmax(0,1fr));
+
+  background-color: #54a4ff;
+
+}
+
+.navbar-menus {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  vertical-align: middle;
+
+  padding-left: 1rem;
+
+}
+
+.navbar-options {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  vertical-align: middle;
+
+  padding-right: 1rem;
+
+}
+
+.navbar-title {
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.menu-items {
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  font-size: large;
+
+}
